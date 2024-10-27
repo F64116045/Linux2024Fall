@@ -25,7 +25,8 @@ if [ -d "compressed_files" ]; then
             elif [[ "$file" == *.tar.gz ]]; then
                 mv "$file" compressed_files/tar.gz/
                 tar -xzf compressed_files/tar.gz/$(basename "$file") -C compressed_files/tar.gz/ 
-                rm compressed_files/tar.gz/$(basename "$file")  
+                rm compressed_files/tar.gz/$(basename "$file")
+            else
                 mv "$file" compressed_files/unknown/
             fi
         fi
