@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/beginner_tutorials/beginner_tutorials.egg-info
+writing ../../build/beginner_tutorials/beginner_tutorials.egg-info/PKG-INFO
+writing dependency_links to ../../build/beginner_tutorials/beginner_tutorials.egg-info/dependency_links.txt
+writing entry points to ../../build/beginner_tutorials/beginner_tutorials.egg-info/entry_points.txt
+writing requirements to ../../build/beginner_tutorials/beginner_tutorials.egg-info/requires.txt
+writing top-level names to ../../build/beginner_tutorials/beginner_tutorials.egg-info/top_level.txt
+writing manifest file '../../build/beginner_tutorials/beginner_tutorials.egg-info/SOURCES.txt'
+reading manifest file '../../build/beginner_tutorials/beginner_tutorials.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/beginner_tutorials/beginner_tutorials.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/eason/ros2_ws/build/beginner_tutorials/build
+creating /home/eason/ros2_ws/build/beginner_tutorials/build/lib
+creating /home/eason/ros2_ws/build/beginner_tutorials/build/lib/beginner_tutorials
+copying beginner_tutorials/publisher_member_function.py -> /home/eason/ros2_ws/build/beginner_tutorials/build/lib/beginner_tutorials
+copying beginner_tutorials/subscriber_member_function.py -> /home/eason/ros2_ws/build/beginner_tutorials/build/lib/beginner_tutorials
+copying beginner_tutorials/__init__.py -> /home/eason/ros2_ws/build/beginner_tutorials/build/lib/beginner_tutorials
+running install
+running install_lib
+creating /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials
+copying /home/eason/ros2_ws/build/beginner_tutorials/build/lib/beginner_tutorials/publisher_member_function.py -> /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials
+copying /home/eason/ros2_ws/build/beginner_tutorials/build/lib/beginner_tutorials/subscriber_member_function.py -> /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials
+copying /home/eason/ros2_ws/build/beginner_tutorials/build/lib/beginner_tutorials/__init__.py -> /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials
+byte-compiling /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+byte-compiling /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+byte-compiling /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/eason/ros2_ws/install/beginner_tutorials/share/ament_index
+creating /home/eason/ros2_ws/install/beginner_tutorials/share/ament_index/resource_index
+creating /home/eason/ros2_ws/install/beginner_tutorials/share/ament_index/resource_index/packages
+copying resource/beginner_tutorials -> /home/eason/ros2_ws/install/beginner_tutorials/share/ament_index/resource_index/packages
+copying package.xml -> /home/eason/ros2_ws/install/beginner_tutorials/share/beginner_tutorials
+running install_egg_info
+Copying ../../build/beginner_tutorials/beginner_tutorials.egg-info to /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials-0.0.0-py3.10.egg-info
+running install_scripts
+Installing listener script to /home/eason/ros2_ws/install/beginner_tutorials/lib/beginner_tutorials
+Installing talker script to /home/eason/ros2_ws/install/beginner_tutorials/lib/beginner_tutorials
+writing list of installed files to '/home/eason/ros2_ws/build/beginner_tutorials/install.log'

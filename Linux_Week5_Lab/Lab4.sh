@@ -36,6 +36,7 @@ else
     exit 1
 fi
 
+
 for student_id in $student_list; do
     # 檢查學生是否提交了文件
     if ls compressed_files/* | grep -q "$student_id"; then

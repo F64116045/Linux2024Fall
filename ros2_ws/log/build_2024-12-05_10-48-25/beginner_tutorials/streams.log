@@ -1,0 +1,42 @@
+[2.007s] Invoking command in '/home/eason/ros2_ws/src/beginner_tutorials': PYTHONPATH=/home/eason/ros2_ws/build/beginner_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/beginner_tutorials build --build-base /home/eason/ros2_ws/build/beginner_tutorials/build install --record /home/eason/ros2_ws/build/beginner_tutorials/install.log --single-version-externally-managed install_data
+[2.457s] running egg_info
+[2.459s] creating ../../build/beginner_tutorials/beginner_tutorials.egg-info
+[2.460s] writing ../../build/beginner_tutorials/beginner_tutorials.egg-info/PKG-INFO
+[2.461s] writing dependency_links to ../../build/beginner_tutorials/beginner_tutorials.egg-info/dependency_links.txt
+[2.462s] writing entry points to ../../build/beginner_tutorials/beginner_tutorials.egg-info/entry_points.txt
+[2.462s] writing requirements to ../../build/beginner_tutorials/beginner_tutorials.egg-info/requires.txt
+[2.463s] writing top-level names to ../../build/beginner_tutorials/beginner_tutorials.egg-info/top_level.txt
+[2.463s] writing manifest file '../../build/beginner_tutorials/beginner_tutorials.egg-info/SOURCES.txt'
+[2.467s] reading manifest file '../../build/beginner_tutorials/beginner_tutorials.egg-info/SOURCES.txt'
+[2.468s] adding license file 'LICENSE'
+[2.469s] writing manifest file '../../build/beginner_tutorials/beginner_tutorials.egg-info/SOURCES.txt'
+[2.470s] running build
+[2.470s] running build_py
+[2.470s] creating /home/eason/ros2_ws/build/beginner_tutorials/build
+[2.471s] creating /home/eason/ros2_ws/build/beginner_tutorials/build/lib
+[2.471s] creating /home/eason/ros2_ws/build/beginner_tutorials/build/lib/beginner_tutorials
+[2.472s] copying beginner_tutorials/publisher_member_function.py -> /home/eason/ros2_ws/build/beginner_tutorials/build/lib/beginner_tutorials
+[2.472s] copying beginner_tutorials/subscriber_member_function.py -> /home/eason/ros2_ws/build/beginner_tutorials/build/lib/beginner_tutorials
+[2.473s] copying beginner_tutorials/__init__.py -> /home/eason/ros2_ws/build/beginner_tutorials/build/lib/beginner_tutorials
+[2.474s] running install
+[2.475s] running install_lib
+[2.476s] creating /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials
+[2.479s] copying /home/eason/ros2_ws/build/beginner_tutorials/build/lib/beginner_tutorials/publisher_member_function.py -> /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials
+[2.480s] copying /home/eason/ros2_ws/build/beginner_tutorials/build/lib/beginner_tutorials/subscriber_member_function.py -> /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials
+[2.480s] copying /home/eason/ros2_ws/build/beginner_tutorials/build/lib/beginner_tutorials/__init__.py -> /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials
+[2.481s] byte-compiling /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[2.484s] byte-compiling /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[2.484s] byte-compiling /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials/__init__.py to __init__.cpython-310.pyc
+[2.484s] running install_data
+[2.485s] creating /home/eason/ros2_ws/install/beginner_tutorials/share/ament_index
+[2.485s] creating /home/eason/ros2_ws/install/beginner_tutorials/share/ament_index/resource_index
+[2.485s] creating /home/eason/ros2_ws/install/beginner_tutorials/share/ament_index/resource_index/packages
+[2.485s] copying resource/beginner_tutorials -> /home/eason/ros2_ws/install/beginner_tutorials/share/ament_index/resource_index/packages
+[2.486s] copying package.xml -> /home/eason/ros2_ws/install/beginner_tutorials/share/beginner_tutorials
+[2.486s] running install_egg_info
+[2.490s] Copying ../../build/beginner_tutorials/beginner_tutorials.egg-info to /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials-0.0.0-py3.10.egg-info
+[2.491s] running install_scripts
+[2.531s] Installing listener script to /home/eason/ros2_ws/install/beginner_tutorials/lib/beginner_tutorials
+[2.532s] Installing talker script to /home/eason/ros2_ws/install/beginner_tutorials/lib/beginner_tutorials
+[2.532s] writing list of installed files to '/home/eason/ros2_ws/build/beginner_tutorials/install.log'
+[2.582s] Invoked command in '/home/eason/ros2_ws/src/beginner_tutorials' returned '0': PYTHONPATH=/home/eason/ros2_ws/build/beginner_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/beginner_tutorials build --build-base /home/eason/ros2_ws/build/beginner_tutorials/build install --record /home/eason/ros2_ws/build/beginner_tutorials/install.log --single-version-externally-managed install_data

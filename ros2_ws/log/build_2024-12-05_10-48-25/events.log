@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.002487] (beginner_tutorials) JobQueued: {'identifier': 'beginner_tutorials', 'dependencies': OrderedDict()}
+[0.002625] (beginner_tutorials) JobStarted: {'identifier': 'beginner_tutorials'}
+[0.099029] (-) TimerEvent: {}
+[0.199842] (-) TimerEvent: {}
+[0.300599] (-) TimerEvent: {}
+[0.401779] (-) TimerEvent: {}
+[0.502520] (-) TimerEvent: {}
+[0.603442] (-) TimerEvent: {}
+[0.704187] (-) TimerEvent: {}
+[0.804764] (-) TimerEvent: {}
+[0.906202] (-) TimerEvent: {}
+[1.007097] (-) TimerEvent: {}
+[1.107818] (-) TimerEvent: {}
+[1.208710] (-) TimerEvent: {}
+[1.309437] (-) TimerEvent: {}
+[1.410131] (-) TimerEvent: {}
+[1.510927] (-) TimerEvent: {}
+[1.611845] (-) TimerEvent: {}
+[1.712605] (-) TimerEvent: {}
+[1.813278] (-) TimerEvent: {}
+[1.914048] (-) TimerEvent: {}
+[2.004709] (beginner_tutorials) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/beginner_tutorials', 'build', '--build-base', '/home/eason/ros2_ws/build/beginner_tutorials/build', 'install', '--record', '/home/eason/ros2_ws/build/beginner_tutorials/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/eason/ros2_ws/src/beginner_tutorials', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'eason', 'GIT_ASKPASS': '/home/eason/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/eason', 'OLDPWD': '/home/eason/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-f0c0ca94-9598-42a2-97e5-59cc6c10c5c9.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/eason/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/eason/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/node', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'COLCON_PREFIX_PATH': '/home/eason/ros2_ws/install:/home/eason/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'eason', 'NAME': 'LAPTOP-JEHIC77E', 'WSL_INTEROP': '/run/WSL/5943_interop', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/eason/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/bin/remote-cli:/home/eason/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/mingw64/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/user/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/user/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/user/AppData/Roaming/npm:/snap/bin', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-d57af950a5.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/eason/ros2_ws/build/beginner_tutorials', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/eason/ros2_ws/build/beginner_tutorials/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[2.014232] (-) TimerEvent: {}
+[2.114870] (-) TimerEvent: {}
+[2.215605] (-) TimerEvent: {}
+[2.316307] (-) TimerEvent: {}
+[2.417023] (-) TimerEvent: {}
+[2.459774] (beginner_tutorials) StdoutLine: {'line': b'running egg_info\n'}
+[2.461900] (beginner_tutorials) StdoutLine: {'line': b'creating ../../build/beginner_tutorials/beginner_tutorials.egg-info\n'}
+[2.462659] (beginner_tutorials) StdoutLine: {'line': b'writing ../../build/beginner_tutorials/beginner_tutorials.egg-info/PKG-INFO\n'}
+[2.463958] (beginner_tutorials) StdoutLine: {'line': b'writing dependency_links to ../../build/beginner_tutorials/beginner_tutorials.egg-info/dependency_links.txt\n'}
+[2.464379] (beginner_tutorials) StdoutLine: {'line': b'writing entry points to ../../build/beginner_tutorials/beginner_tutorials.egg-info/entry_points.txt\n'}
+[2.464766] (beginner_tutorials) StdoutLine: {'line': b'writing requirements to ../../build/beginner_tutorials/beginner_tutorials.egg-info/requires.txt\n'}
+[2.465204] (beginner_tutorials) StdoutLine: {'line': b'writing top-level names to ../../build/beginner_tutorials/beginner_tutorials.egg-info/top_level.txt\n'}
+[2.465696] (beginner_tutorials) StdoutLine: {'line': b"writing manifest file '../../build/beginner_tutorials/beginner_tutorials.egg-info/SOURCES.txt'\n"}
+[2.469658] (beginner_tutorials) StdoutLine: {'line': b"reading manifest file '../../build/beginner_tutorials/beginner_tutorials.egg-info/SOURCES.txt'\n"}
+[2.470393] (beginner_tutorials) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.471668] (beginner_tutorials) StdoutLine: {'line': b"writing manifest file '../../build/beginner_tutorials/beginner_tutorials.egg-info/SOURCES.txt'\n"}
+[2.472042] (beginner_tutorials) StdoutLine: {'line': b'running build\n'}
+[2.472834] (beginner_tutorials) StdoutLine: {'line': b'running build_py\n'}
+[2.473056] (beginner_tutorials) StdoutLine: {'line': b'creating /home/eason/ros2_ws/build/beginner_tutorials/build\n'}
+[2.473402] (beginner_tutorials) StdoutLine: {'line': b'creating /home/eason/ros2_ws/build/beginner_tutorials/build/lib\n'}
+[2.473893] (beginner_tutorials) StdoutLine: {'line': b'creating /home/eason/ros2_ws/build/beginner_tutorials/build/lib/beginner_tutorials\n'}
+[2.474343] (beginner_tutorials) StdoutLine: {'line': b'copying beginner_tutorials/publisher_member_function.py -> /home/eason/ros2_ws/build/beginner_tutorials/build/lib/beginner_tutorials\n'}
+[2.474936] (beginner_tutorials) StdoutLine: {'line': b'copying beginner_tutorials/subscriber_member_function.py -> /home/eason/ros2_ws/build/beginner_tutorials/build/lib/beginner_tutorials\n'}
+[2.475368] (beginner_tutorials) StdoutLine: {'line': b'copying beginner_tutorials/__init__.py -> /home/eason/ros2_ws/build/beginner_tutorials/build/lib/beginner_tutorials\n'}
+[2.475995] (beginner_tutorials) StdoutLine: {'line': b'running install\n'}
+[2.477128] (beginner_tutorials) StdoutLine: {'line': b'running install_lib\n'}
+[2.478776] (beginner_tutorials) StdoutLine: {'line': b'creating /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials\n'}
+[2.481082] (beginner_tutorials) StdoutLine: {'line': b'copying /home/eason/ros2_ws/build/beginner_tutorials/build/lib/beginner_tutorials/publisher_member_function.py -> /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials\n'}
+[2.482440] (beginner_tutorials) StdoutLine: {'line': b'copying /home/eason/ros2_ws/build/beginner_tutorials/build/lib/beginner_tutorials/subscriber_member_function.py -> /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials\n'}
+[2.482674] (beginner_tutorials) StdoutLine: {'line': b'copying /home/eason/ros2_ws/build/beginner_tutorials/build/lib/beginner_tutorials/__init__.py -> /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials\n'}
+[2.483850] (beginner_tutorials) StdoutLine: {'line': b'byte-compiling /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials/publisher_member_function.py to publisher_member_function.cpython-310.pyc\n'}
+[2.486471] (beginner_tutorials) StdoutLine: {'line': b'byte-compiling /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc\n'}
+[2.486688] (beginner_tutorials) StdoutLine: {'line': b'byte-compiling /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials/__init__.py to __init__.cpython-310.pyc\n'}
+[2.487006] (beginner_tutorials) StdoutLine: {'line': b'running install_data\n'}
+[2.487147] (beginner_tutorials) StdoutLine: {'line': b'creating /home/eason/ros2_ws/install/beginner_tutorials/share/ament_index\n'}
+[2.487423] (beginner_tutorials) StdoutLine: {'line': b'creating /home/eason/ros2_ws/install/beginner_tutorials/share/ament_index/resource_index\n'}
+[2.487558] (beginner_tutorials) StdoutLine: {'line': b'creating /home/eason/ros2_ws/install/beginner_tutorials/share/ament_index/resource_index/packages\n'}
+[2.487829] (beginner_tutorials) StdoutLine: {'line': b'copying resource/beginner_tutorials -> /home/eason/ros2_ws/install/beginner_tutorials/share/ament_index/resource_index/packages\n'}
+[2.488417] (beginner_tutorials) StdoutLine: {'line': b'copying package.xml -> /home/eason/ros2_ws/install/beginner_tutorials/share/beginner_tutorials\n'}
+[2.488599] (beginner_tutorials) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.492118] (beginner_tutorials) StdoutLine: {'line': b'Copying ../../build/beginner_tutorials/beginner_tutorials.egg-info to /home/eason/ros2_ws/install/beginner_tutorials/lib/python3.10/site-packages/beginner_tutorials-0.0.0-py3.10.egg-info\n'}
+[2.493285] (beginner_tutorials) StdoutLine: {'line': b'running install_scripts\n'}
+[2.517303] (-) TimerEvent: {}
+[2.533636] (beginner_tutorials) StdoutLine: {'line': b'Installing listener script to /home/eason/ros2_ws/install/beginner_tutorials/lib/beginner_tutorials\n'}
+[2.534233] (beginner_tutorials) StdoutLine: {'line': b'Installing talker script to /home/eason/ros2_ws/install/beginner_tutorials/lib/beginner_tutorials\n'}
+[2.534837] (beginner_tutorials) StdoutLine: {'line': b"writing list of installed files to '/home/eason/ros2_ws/build/beginner_tutorials/install.log'\n"}
+[2.583550] (beginner_tutorials) CommandEnded: {'returncode': 0}
+[2.604058] (beginner_tutorials) JobEnded: {'identifier': 'beginner_tutorials', 'rc': 0}
+[2.604796] (-) EventReactorShutdown: {}

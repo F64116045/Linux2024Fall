@@ -1,0 +1,4 @@
+[console_scripts]
+listener = beginner_tutorials.subscriber_member_function:main
+talker = beginner_tutorials.publisher_member_function:main
+
